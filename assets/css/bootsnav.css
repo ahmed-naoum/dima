@@ -1660,7 +1660,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.nav > li.active > a {
-    color: #ff3c3c;
+    color: #2f66ff;
   }
 
   nav.navbar.bootsnav.color-yellow ul.nav > li.active > a {
@@ -1687,7 +1687,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.nav > li > a:hover {
-    color: #ff3c3c;
+    color: #2f66ff;
   }
 
   .eastern-blue nav.navbar.bootsnav ul.nav > li > a:hover {
