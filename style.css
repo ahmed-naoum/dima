@@ -5483,7 +5483,7 @@ footer .f-items .f-item .address li strong {
 
 /* Footer Bottom */
 footer .footer-bottom {
-    border-top: 1px solid #912d2d;
+    border-top: 1px solid #2e2e2e;
     padding: 30px 0;
 }
 
@@ -5526,6 +5526,14 @@ footer.bg-dark .footer-bottom a:hover {
   position: absolute;
   left: 100px;
   top: 0;
+}
+.fasd{
+  width: 140px;
+  background: #2f66ff;
+  color: #ffffff;
+  display: inline-block;
+  padding: 10px 30px !important;
+  border-radius: 10px;
 }
 .se-pre-con img{
   width: 300px;
