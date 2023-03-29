@@ -792,7 +792,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a .badge {
   padding: 3px 10px;
   font-weight: 600;
   margin-left: 4px;
-  background: #2f66ff;
+  background: #616161;
   color: #ffffff;
   border-radius: 5px;
 }
@@ -1660,7 +1660,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.nav > li.active > a {
-    color: #2f66ff;
+    color: #cccccc;
   }
 
   nav.navbar.bootsnav.color-yellow ul.nav > li.active > a {
@@ -1673,8 +1673,8 @@ nav.navbar.bootsnav {
 
   nav.navbar.bootsnav.active-full ul.nav > li > a.active,
     nav.navbar.bootsnav.active-full ul.nav > li > a:hover {
-    background: #2f66ff none repeat scroll 0 0 !important;
-    color: #ffffff;
+    background: #cccccc none repeat scroll 0 0 !important;
+    color: #cccccc;
   }
 
   nav.navbar.bootsnav.active-full.color-yellow ul.nav > li > a.active,
@@ -1683,15 +1683,15 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav.active-full ul.nav > li.active > a:hover {
-    color: #ffffff;
+    color: #cccccc;
   }
 
   nav.navbar.bootsnav ul.nav > li > a:hover {
-    color: #2f66ff;
+    color: #cccccc;
   }
 
   .eastern-blue nav.navbar.bootsnav ul.nav > li > a:hover {
-    color: #2f66ff;
+    color: #cccccc;
   }
 
   .orange nav.navbar.bootsnav ul.nav > li > a:hover {
