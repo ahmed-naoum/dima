@@ -199,11 +199,7 @@ b, strong {
   outline: 0;
 }
 
-.btn.circle {
-  -webkit-border-radius: 40px;
-  -moz-border-radius: 40px;
-  border-radius: 40px;
-}
+
 
 .btn.active, .btn:active {
   outline: 0;
@@ -435,7 +431,6 @@ input {
 
 .default-padding {
   padding-top: 120px;
-  background-color: #000;
   padding-bottom: 40px;
 }
 
@@ -595,7 +590,7 @@ a:hover, a:active {
 
 .btn.btn-light.effect {
   color: #232323;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   box-shadow: 0 10px 30px 0 rgb(44 130 237 / 40%);
   overflow: hidden;
   position: relative;
@@ -615,7 +610,7 @@ a:hover, a:active {
 }
 
 .btn.btn-light.effect:hover {
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
   color: #ffffff;
   background: transparent;
 }
@@ -626,7 +621,7 @@ a:hover, a:active {
 
 .btn.btn-dark.effect {
   color: #ffffff;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   box-shadow: 0 10px 30px 0 rgb(44 130 237 / 40%);
   overflow: hidden;
   z-index: 1;
@@ -647,7 +642,7 @@ a:hover, a:active {
 }
 
 .btn.btn-dark.effect:hover {
-  border: 2px solid #0d0d0d;
+  border: 1px solid #0d0d0d;
   color: #0d0d0d;
   background: transparent;
 }
@@ -658,11 +653,11 @@ a:hover, a:active {
 
 .btn-light.border {
     background: #ffffff;
-    border: 2px solid #e7e7e7 !important;
+    border: 1px solid #e7e7e7 !important;
 }
 
 .btn-theme-border {
-  border: 2px solid #2f66ff;
+  border: 1px solid #12255bb5;
   overflow: hidden;
   position: relative;
   z-index: 1;
@@ -681,7 +676,7 @@ a:hover, a:active {
 }
 
 .btn-theme-border.circle::after {
-  border-radius: 30px;
+  border-radius: 5px;
 }
 
 .btn-theme-border:hover::after {
@@ -693,7 +688,7 @@ a:hover, a:active {
 }
 
 .btn-light-border {
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
   overflow: hidden;
   position: relative;
   z-index: 1;
@@ -713,7 +708,7 @@ a:hover, a:active {
 }
 
 .btn-light-border.circle::after {
-  border-radius: 30px;
+  border-radius: 5px;
 }
 
 .btn-light-border:hover::after {
@@ -725,7 +720,7 @@ a:hover, a:active {
 }
 
 .btn-theme-effect {
-  border: 2px solid #2f66ff;
+  border: 1px solid #12255bb5;
   overflow: hidden;
   position: relative;
   z-index: 1;
@@ -744,10 +739,9 @@ a:hover, a:active {
   transition: all 0.35s ease-in-out;
 }
 
-.btn-theme-effect.circle::after {
-  border-radius: 30px;
+.btn:focus{
+  box-shadow: 0 0 0 0.2rem rgb(47 102 255 / 11%);
 }
-
 .btn-theme-effect:hover::after {
   width: 0;
 }
@@ -1273,7 +1267,7 @@ body,
   height: 20px;
   width: 20px;
   margin: 10px 5px;
-  border: 2px solid rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.7);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -1283,7 +1277,7 @@ body,
 }
 
 .banner-area .carousel-indicators li.active {
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
 }
 
 .banner-area .carousel-indicators li::after {
@@ -1362,7 +1356,7 @@ body,
     top: 120px;
     max-width: 350px;
     box-shadow: -10px 3px 7px 0px #17001a52;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none !important;
 }
 
@@ -1581,7 +1575,7 @@ body,
     max-width: 90%;
     background: #ffffff;
     box-shadow: 1px 4px 20px -2px rgb(0 0 0 / 10%);
-    border-radius: 30px;
+    border-radius: 5px;
     margin-top: 35px;
 }
 
@@ -1589,7 +1583,7 @@ body,
     background: transparent;
     box-shadow: inherit;
     border: none;
-    border-radius: 30px;
+    border-radius: 5px;
     min-height: 60px;
     padding-left: 25px;
 }
@@ -1600,7 +1594,7 @@ body,
     top: 5px;
     height: 50px;
     padding: 0 25px;
-    border-radius: 30px;
+    border-radius: 5px;
     background: rgb(47 102 255);
     color: #ffffff;
     font-weight: 600;
@@ -2081,7 +2075,7 @@ body,
 
 .about-area .thumb img {
     box-shadow: 1px 4px 20px -2px rgb(0 0 0 / 10%);
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .about-area .thumb {
@@ -2353,7 +2347,7 @@ body,
     line-height: 80px;
     background: #ffffff;
     box-shadow: 0 10px 30px 0 rgb(44 130 237 / 40%);
-    border-radius: 8px;
+    border-radius: 5px;
     text-align: center;
     margin-right: 30px;
     min-width: 80px;
@@ -2433,7 +2427,7 @@ body,
   background: #ffffff;
   position: relative;
   z-index: 1;
-  border: 2px solid #e7e7e7;
+  border: 1px solid #e7e7e7;
 }
 
 .features-area .features-box .features-carousel .owl-dots .owl-dot.active span::after {
@@ -2505,7 +2499,7 @@ body,
     width: 70px;
     background: linear-gradient(62.5deg, transparent, rgba(40, 40, 40, 0.9));
     z-index: -1;
-    border-radius: 10px;
+    border-radius: 5px;
     transform: rotate(-45deg);
 }
 
@@ -2514,7 +2508,7 @@ body,
     padding: 60px 30px;
     background: #111111;
     box-shadow: 1px 4px 20px -2px rgb(0 0 0 / 10%);
-    border-radius: 8px;
+    border-radius: 5px;
     transition: all 0.1s ease-in-out;
     border-bottom: 3px solid transparent;
 }
@@ -2541,7 +2535,7 @@ body,
 }
 
 .our-features-area .feature-items .single-item .item {
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 0 15px;
     padding-top: 35px;
 }
@@ -2604,7 +2598,7 @@ body,
 .features-area .feature-box .single-item .item {
     padding: 50px 30px;
     transition: all 0.35s ease-in-out;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .features-area .feature-box .single-item .item i {
@@ -2955,7 +2949,7 @@ body,
     background: #2f66ff;
     position: relative;
     overflow: inherit;
-    border-radius: 30px;
+    border-radius: 5px;
 }
 
 .choose-us-area .progress-box .progress .progress-bar span {
@@ -3067,7 +3061,7 @@ body,
 .overview-area .item .content {
     left: 50px;
     background: #ffffff;
-    border-radius: 8px;
+    border-radius: 5px;
     right: 50px;
     align-items: center;
     margin-top: 15px;
@@ -3122,7 +3116,7 @@ body,
   background: #ffffff;
   position: relative;
   z-index: 1;
-  border: 2px solid #e7e7e7;
+  border: 1px solid #e7e7e7;
 }
 
 .overview-area .overview-carousel.owl-carousel .owl-dots .owl-dot.active span::after {
@@ -3202,7 +3196,7 @@ body,
   content: "";
   height: 10px;
   width: 10px;
-  border: 2px solid #2f66ff;
+  border: 1px solid #12255bb5;
   margin-left: -5px;
   border-radius: 50%;
 }
@@ -3218,7 +3212,7 @@ body,
 .tab-overview-area .center-tabs img {
     background: #ffffff;
     box-shadow: 0 0 10px #cccccc;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .center-tabs .info h3 {
@@ -3325,7 +3319,7 @@ body,
 .clients-area .client-items {
     padding: 120px 50px;
     background: linear-gradient(97deg, rgba(74,196,243,1) 45%, rgba(0,184,255,1) 100%);
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 10px 30px 0 rgb(44 130 237 / 40%);
     position: relative;
     overflow: hidden;
@@ -3436,7 +3430,7 @@ ul.achivement li .medium {
 .subscribe-area .subscribe-items {
     padding: 80px 50px;
     background: linear-gradient(97deg, rgba(74,196,243,1) 45%, rgba(0,184,255,1) 100%);
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 10px 30px 0 rgb(44 130 237 / 40%);
     position: relative;
     overflow: hidden;
@@ -3459,7 +3453,7 @@ ul.achivement li .medium {
 
 .subscribe-area form input {
     min-height: 60px;
-    border-radius: 30px;
+    border-radius: 5px;
     box-shadow: inherit;
     border: none;
     background: rgba(255, 255, 255, 0.7);
@@ -3484,7 +3478,7 @@ ul.achivement li .medium {
     right: 5px;
     top: 5px;
     height: 50px;
-    border-radius: 30px;
+    border-radius: 5px;
     background: linear-gradient(90deg, rgba(74,196,243,1) 48%, rgba(1,135,186,1) 100%);
     box-shadow: 0 0 10px #cccccc;
     padding: 0 25px;
@@ -3543,7 +3537,7 @@ ul.achivement li .medium {
 
 .software-single-details-area .thumb {
     position: relative;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px;
     background: linear-gradient(360deg, rgb(255, 60, 60) 0%, rgba(255, 255, 255, 0) 30%);
     margin-top: 50px;
@@ -3584,7 +3578,7 @@ ul.achivement li .medium {
 }
 
 .software-single-details-area .thumb img:first-child {
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .software-single-details-area .thumb img:nth-child(2) {
@@ -3679,11 +3673,11 @@ ul.achivement li .medium {
     position: relative;
     padding: 6px;
     background: #Faf5ff;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .team-area .team-items .thumb img {
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 .team-area .team-items .info {
@@ -3748,7 +3742,7 @@ ul.achivement li .medium {
     height: 45px;
     color: #ffffff;
     background: linear-gradient(45deg,#ff6161 0%,#ce2222 100%);
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0px 0px 0px 4px#ce2223;
     cursor: pointer;
     transition: .3s ease;
@@ -3918,6 +3912,7 @@ ul.achivement li .medium {
 .pricing-area .pricing-item {
     text-align: center;
     padding-bottom: 40px;
+    border-radius: 5px;
 }
 
 .pricing-area .single-item {
@@ -4067,7 +4062,7 @@ ul.achivement li .medium {
     background: #171717e0;
     margin-bottom: 30px;
     box-shadow: 1px 4px 20px -2px rgb(0 0 0 / 10%);
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .blog-area .item:last-child {
@@ -4140,7 +4135,7 @@ ul.achivement li .medium {
 }
 
 .blog-area .thumb img {
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 .blog-area .thumb .date {
@@ -4148,7 +4143,7 @@ ul.achivement li .medium {
     right: 45px;
     bottom: -25px;
     margin: 0;
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 0;
 }
 
@@ -4255,7 +4250,7 @@ ul.achivement li .medium {
 
 .blog-area .sidebar input[type="text"] {
   border: 1px solid #e7e7e7;
-  border-radius: 30px;
+  border-radius: 5px;
   box-shadow: inherit;
   min-height: 60px;
 }
@@ -4330,7 +4325,7 @@ ul.achivement li .medium {
     padding: 3px;
     text-align: center;
     color: #232323;
-    border-radius: 30px;
+    border-radius: 5px;
 }
 
 .blog-area .sidebar .sidebar-item.category li:first-child a span {
@@ -4560,7 +4555,7 @@ ul.achivement li .medium {
   padding: 5px 25px;
   text-transform: capitalize;
   font-size: 13px;
-  border-radius: 30px;
+  border-radius: 5px;
   color: #666666;
   background: #fafafa;
 }
@@ -4792,7 +4787,7 @@ ul.achivement li .medium {
   font-weight: 600;
   text-transform: capitalize;
   color: #999999;
-  border-radius: 30px;
+  border-radius: 5px;
 }
 
 .blog-area.single .post-pagi-area h5 {
@@ -5029,8 +5024,8 @@ ul.achivement li .medium {
     text-transform: uppercase;
     font-weight: 700;
     transition: all 0.35s ease-in-out;
-    border: 2px solid #2f66ff !important;
-    border-radius: 30px;
+    border: 1px solid #2f66ff !important;
+    border-radius: 5px;
     position: relative;
     z-index: 1;
     display: inline-block;
@@ -5047,7 +5042,7 @@ ul.achivement li .medium {
   background: #2f66ff;
   z-index: -1;
   transition: all 0.35s ease-in-out;
-  border-radius: 30px;
+  border-radius: 5px;
 }
 
 .comments-form button:hover::after {
@@ -5193,8 +5188,8 @@ ul.pagination {
 .contact-area .contact-forms button {
   padding: 10px 35px;
   background: transparent;
-  border: 2px solid #2f66ff !important;
-  border-radius: 30px;
+  border: 1px solid #2f66ff !important;
+  border-radius: 5px;
   text-transform: capitalize;
   font-weight: 700;
   transition: all 0.35s ease-in-out;
@@ -5228,7 +5223,7 @@ ul.pagination {
     display: inline-block;
     background:  #2f66ff;
     padding: 15px 40px;
-    border-radius: 30px;
+    border-radius: 5px;
     color: #ffffff;
     text-transform: uppercase;
     font-size: 14px;
@@ -5278,13 +5273,13 @@ ul.pagination {
 .error-page-area .error-box .search form {
     width: 100%;
     border: 1px solid #e7e7e7;
-    border-radius: 30px;
+    border-radius: 5px;
 }
 
 .error-page-area .error-box .search form input {
     box-shadow: inherit;
     border: none;
-    border-radius: 30px;
+    border-radius: 5px;
     min-height: 60px;
     padding: 25px;
 }
@@ -5528,10 +5523,18 @@ footer.bg-dark .footer-bottom a:hover {
 .fasd{
   width: 140px;
   background: #2f66ff;
-  color: #ffffff;
+  color: #fff;
   display: inline-block;
   padding: 10px 30px !important;
-  border-radius: 10px;
+  border-radius: 5px;
+}
+.fasd:hover{
+  width: 140px;
+  background: #2f66ff;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 30px !important;
+  border-radius: 5px;
 }
 .se-pre-con img{
   width: 300px;
