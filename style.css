@@ -5362,6 +5362,7 @@ footer img,
 footer .widget-title {
     margin-bottom: 30px;
     font-weight: 600;
+    margin: 0 auto 20px auto;
 }
 
 footer.bg-dark .f-items .f-item p,
